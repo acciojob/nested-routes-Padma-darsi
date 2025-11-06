@@ -6,11 +6,11 @@ const Category = () => {
 
   return (
     <div>
-      <h2>Women’s Collection</h2>
+      <h2>Women Category</h2>
       <ul>
         {items.map((item, index) => (
           <li key={index}>
-            <Link to={`/women/${item.toLowerCase()}`}>{item}</Link>
+            <Link to={`/category/${item.toLowerCase()}`}>{item}</Link>
           </li>
         ))}
       </ul>
